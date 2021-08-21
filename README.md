@@ -91,7 +91,9 @@ php artisan Migrate
 ```bash
 Register,Login,Reset Password,Email Verification,Profile Details Update
 ```
+## Screenshots
 
+![App Screenshot](public\user_image\ss1.png)
 
 ## Security Vulnerabilities
 
