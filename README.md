@@ -73,7 +73,7 @@ php artisan serve
 ```
 
 ## Before Starting 
-Setup your database
+Setup your database and mail
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -81,6 +81,14 @@ DB_PORT=3306
 DB_DATABASE={Database name}
 DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME={your email address}
+MAIL_PASSWORD={your password}
+MAIL_FROM_ADDRESS={your email address}
+MAIL_ENCRYPTION=ssl
 ```
 ## Migrate the tables
 ```bash
