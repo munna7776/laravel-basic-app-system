@@ -92,7 +92,7 @@ php artisan Migrate
 Register,Login,Reset Password,Email Verification,Profile Details Update
 ```
 ## Screenshots
-For screenshot, go to public\user_image\(ss1.png or ss2.png or ss3.png)
+For screenshot, go to public\user_image\{ss1.png or ss2.png or ss3.png}
 
 ## Security Vulnerabilities
 
